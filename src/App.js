@@ -13,7 +13,7 @@ import Contact from './componments/Pages/Contact/Contact';
 function App() {
   return (
     <>
-    <Router basename={'/web-site'}>
+    <Router >
     <Topnav/>
     <Header/>
       <Routes>
