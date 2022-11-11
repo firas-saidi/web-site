@@ -12,7 +12,7 @@ function Topnav() {
                     <a className="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                 </div>
                 <div>
-                    <a className="text-light" href="https://fb.com/templatemo" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a className="text-light" href="https://fb.com" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
                     <a className="text-light" href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram fa-sm fa-fw me-2"></i></a>
                     <a className="text-light" href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fab fa-twitter fa-sm fa-fw me-2"></i></a>
                     <a className="text-light" href="https://www.linkedin.com/" target="_blank"  rel="noreferrer"><i className="fab fa-linkedin fa-sm fa-fw"></i></a>

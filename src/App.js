@@ -17,7 +17,7 @@ function App() {
     <Topnav/>
     <Header/>
       <Routes>
-        <Route exact path='/web-site' element={<Mainpage/>}/>
+        <Route exact path='/' element={<Mainpage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/single-shop' element={<Singleshop/>}/>
