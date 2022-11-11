@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Mainpage/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/web-site/shop' element={<Shop/>}/>
+        <Route path='/shop' element={<Shop/>}/>
         <Route path='/single-shop' element={<Singleshop/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
