@@ -1,8 +1,8 @@
 {
-  "homepage": "web-site",
+  "homepage": "https://firas-saidi.github.io/web-site",
   "name": "website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-google-maps/api": "^2.13.1",
     "@testing-library/jest-dom": "^5.16.5",
