@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header () {
   return (
     <nav className="navbar navbar-expand-lg navbar-light shadow">
     <div className="container d-flex justify-content-between align-items-center">
 
-        <a className="navbar-brand text-success logo h1 align-self-center" href="index.html">
+        <Link className="navbar-brand text-success logo h1 align-self-center" to="#/">
             Zay
-        </a>
+        </Link>
 
         <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -17,16 +18,16 @@ function Header () {
             <div className="flex-fill">
                 <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Home</a>
+                        <Link className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/about">About</a>
+                        <Link className="nav-link" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/shop">Shop</a>
+                        <Link className="nav-link" to="/shop">Shop</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/contact">Contact</a>
+                        <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
