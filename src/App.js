@@ -3,7 +3,7 @@ import Footer from './sections/Footer/Footer';
 import Mainpage from './sections/Mainpage/Mainpage';
 import Topnav from './sections/Topnav/Topnav';
 import Header from './sections/Header/Header ';
-import {BrowserRouter  as Router,Route,Routes} from 'react-router-dom'
+import {HashRouter  as Router,Route,Routes} from 'react-router-dom'
 import About from './componments/Pages/About/About';
 import Shop from './componments/Pages/Shop/Shop';
 import Singleshop from './componments/Pages/SingleShop/SingleShop';
