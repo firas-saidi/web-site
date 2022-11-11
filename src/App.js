@@ -13,11 +13,11 @@ import Contact from './componments/Pages/Contact/Contact';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename={'/web-site'}>
     <Topnav/>
     <Header/>
       <Routes>
-        <Route exact path='/web-site' element={<Mainpage/>}/>
+        <Route exact path='/' element={<Mainpage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/single-shop' element={<Singleshop/>}/>
